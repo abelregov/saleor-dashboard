@@ -592,7 +592,8 @@ const createTheme = (colors: IThemeColors): ITheme =>
         color: colors.font.default
       },
       h5: {
-        fontSize: "1.3125rem"
+        fontSize: "1.3125rem",
+        fontWeight: 500
       }
     }
   } as IThemeOptions);
